@@ -1,3 +1,4 @@
+import NavBar from "@/components/NavBar";
 import {
   CustomerReview,
   Footer,
@@ -12,7 +13,7 @@ import {
 export default function Home() {
   return (
     <main className="relative">
-      Nav
+      <NavBar />
       <section className="xl:padding-l wide:padding-r padding-b">
         <Hero />
       </section>
