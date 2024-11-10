@@ -30,8 +30,8 @@ const Hero = () => {
           <span className="text-coral-red inline-block mt-3">Nike</span> Shoes
         </h1>
         <p className="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm">
-          Discover stylish Nike arrivals, quality comfort, and innovation for
-          your active life.
+          Unleash your potential with cutting-edge Nike footwear that blends
+          style, comfort, and power for every stride
         </p>
         <Button label="Show now" iconUrl={arrowRight} />
         <div className="flex justify-starts items-start flex-wrap w-full mt-20 gap-16">

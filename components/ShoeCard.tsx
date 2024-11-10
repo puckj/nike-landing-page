@@ -2,7 +2,7 @@ import Image, { StaticImageData } from "next/image";
 import { Dispatch, SetStateAction } from "react";
 
 interface Props {
-  imgUrl: { thumbnail: any; bigShoe: StaticImageData };
+  imgUrl: { thumbnail: StaticImageData; bigShoe: StaticImageData };
   setSelectedShoe: Dispatch<SetStateAction<StaticImageData>>;
   selectedShoe: StaticImageData;
 }
