@@ -14,8 +14,8 @@ const MobileNavBar = ({ displayMobileNav, displayMobileNavHandler }: Props) => {
     : "translate-x-[-100%]";
   return (
     <div
-      className={`transform transition-all duration-500 fixed top-0 left-0 z-[200]
-h-[100vh] right-0 bottom-0 bg-slate-50 ${navDisplayStyle}`}
+      className={`transform transition-all duration-500 fixed top-0 left-0 z-[200] h-[100vh]
+        right-0 bottom-0 bg-slate-50 ${navDisplayStyle}`}
     >
       <div className="absolute z-10 right-14 max-sm:right-8 top-6">
         {/* <div className="flex justify-end pt-6 pr-14 max-sm:pr-8"> */}
@@ -31,7 +31,8 @@ h-[100vh] right-0 bottom-0 bg-slate-50 ${navDisplayStyle}`}
         {navLinks.map((item, index) => (
           <li
             key={index}
-            className="text-2xl hover:text-[#FF6452] transition-all duration-200 first:text-[#FF6452] font-montserrat"
+            className="text-2xl hover:text-[#FF6452] transition-all duration-200 first:text-[#FF6452]
+              font-montserrat"
           >
             <Link
               href={item.href}
