@@ -10,7 +10,16 @@ import MobileNavBar from "./MobileNavBar";
 
 const NavBar = () => {
   const [displayMobileNav, setDisplayMobileNav] = useState<boolean>(false);
-  const displayMobileNavHandler = () => setDisplayMobileNav((prev) => !prev);
+  // const displayMobileNavHandler = () => setDisplayMobileNav((prev) => !prev);
+  const displayMobileNavHandler = () => {
+    if (displayMobileNav === true) {
+      setDisplayMobileNav(false);
+      document.body.classList.remove("overflow-hidden");
+    } else {
+      setDisplayMobileNav(true);
+      document.body.classList.add("overflow-hidden");
+    }
+  };
 
   return (
     <>
