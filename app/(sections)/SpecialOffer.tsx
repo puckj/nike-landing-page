@@ -30,8 +30,8 @@ const SpecialOffer = () => {
           styles, and treat yourself to premium comfort and performance.
         </p>
         <p className="mt-6 info-text">
-          Hurry—these offers won’t last long! Shop today and step up your game
-          with Nike’s latest footwear at an amazing value
+          Hurry—these offers won't last long! Shop today and step up your game
+          with Nike's latest footwear at an amazing value
         </p>
         <div className="mt-11 flex flex-wrap gap-4">
           <Button label="Shop now" iconUrl={arrowRight} />
